@@ -13,6 +13,8 @@ I'm 47 years old. I decided to change my job. I am currently working as a plasti
 
 I haven't programming skills yet. Hopefully I will get an experience at the end of the course.
 
+I studied programming on my own.
+
 ```js
 window.addEventListener("DOMContentLoaded", () => {
   const box = document.querySelector(".box");

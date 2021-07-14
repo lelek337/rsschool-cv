@@ -9,7 +9,7 @@ Email:
 
 ## About me
 
-I'm 47 years old. I decided to change my job. At the moment I work as a plastics foundry. I hope my professional experience will be useful in IT.
+I'm 47 years old. I decided to change my job. I am currently working as a plastics caster in a cap factory. I hope my professional experience will be useful in IT.
 
 I haven't programming skills yet. Hopefully I will get an experience at the end of the course.
 

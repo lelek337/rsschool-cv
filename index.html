@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/normalaze.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div class="header_text">
+      <h3>RS school</h3>
+    </div>
+    <div class="header_avatar">
+      <img src="img/avatara.png" alt="My avatar" class="avatar">
+    </div>
+  </header>
+
+  <main>
+    <div class="main_av">
+      <h1>Ivan Hubarau</h1>
+      <div class="contacts">
+        <h2>Contact</h2>
+        <p>Phone: + 375(29)6337663</p>
+        <p>Email: ioan.af@mail.ru</p>
+      </div>
+      <div class="about_me">
+        <h2>About me</h2>
+        <p>I'm 47 years old. I decided to change my job. I am currently working as a plastics caster in a cap factory. I
+          hope my professional experience will be useful in IT.</p>
+        <p>I haven't programming skills yet. Hopefully I will get an experience at the end of the course.</p>
+        <p>I studied programming on my own.</p>
+        <code>
+          <pre>
+          window.addEventListener("DOMContentLoaded", () => {
+          const box = document.querySelector(".box");
+
+          box.addEventListener("touchstart", (e) => {
+          e.preventDefault();
+
+          console.log("start");
+          console.log(e.targetTouches);
+          });
+
+          box.addEventListener("touchmove", (e) => {
+          e.preventDefault();
+
+          console.log(e.targetTouches[0].pageX);
+          });
+          });
+       </pre>
+        </code>
+        <p>I have a diploma of an engineer for the processing of materials by pressure.</p>
+        <p>English level A1.</p>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="img_rs">
+      <img src="https://rs.school/images/rs_school_js.svg" alt="the logo rs school" class="logo_rs">
+    </div>
+    <div class="link_rs">
+      <nav>
+        <a href="https://rs.school/js/" class="footer_emai">
+          <h3>https://rs.school/js/</h3>
+        </a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+
+</html>

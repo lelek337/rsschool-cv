@@ -1,0 +1,359 @@
+/* roboto-300 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local(''),
+    url('../fonts/roboto-v27-latin-300.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/roboto-v27-latin-300.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/roboto-v27-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/roboto-v27-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-700 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+    url('../fonts/roboto-v27-latin-700.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/roboto-v27-latin-700.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* forum-regular - latin */
+@font-face {
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/forum-v11-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/forum-v11-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1920px;
+  font-family: "Roboto";
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: black;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.wriper-box {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+/*Header styles start */
+.header {
+  background-color: #030303;
+
+  width: 100%;
+}
+
+.header-wriper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 74px;
+  padding-bottom: 76px;
+}
+
+.lst-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-nav {
+  margin-right: 76px;
+}
+
+.text-nav:last-child {
+  margin-right: 0;
+}
+
+.header-link {
+  font-size: 22px;
+  line-height: 50px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-link:active {
+  opacity: .75;
+}
+
+/* Header styles end */
+
+.main {
+  margin-top: 0;
+}
+
+/* welcome-box styles start*/
+
+.welcome-box {
+  height: 750px;
+  background: url(../imades/background.jpg) no-repeat right;
+  background-size: 1215px 750px;
+  background-color: #030303;
+  margin-top: 0;
+
+}
+
+.welcome-text {
+  width: 598px;
+  height: 390px;
+  color: #ffffff;
+}
+
+.welcome-h1 {
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 114px;
+}
+
+.welcome-h2 {
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 26px;
+}
+
+.welcome-h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 33px;
+
+  letter-spacing: 2px;
+  margin-bottom: 76px;
+
+}
+
+.welcome-button {
+  margin-bottom: 246px;
+  width: 360px;
+  height: 75px;
+  background: #710707;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+/* welcome-box styles end*/
+/* visit-box styles start */
+
+.tour-card {
+  list-style-type: none;
+}
+
+.visiting-text {
+  padding-top: 75px;
+  margin: 0%;
+  margin-bottom: 25px;
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 90px;
+
+  letter-spacing: 5px;
+  text-transform: uppercase;
+
+  color: #9D8665;
+
+}
+
+.visiting-cards {
+  padding: 0;
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 17px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.visit-img {
+  width: 440px;
+  height: 285px;
+  margin-bottom: 25px;
+}
+
+.text-one {
+  margin: 0;
+  margin-bottom: 9px;
+
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 35px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+
+  color: #000;
+}
+
+.tour-line {
+  margin: 0;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 2px;
+
+  background: #710707;
+  border-radius: 0px;
+}
+
+.text-two {
+  margin: 0;
+  margin-bottom: 10px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #000000;
+}
+
+.text-three {
+  margin: 0;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #000000;
+}
+
+/* visit-box styles end */
+
+/* explore-box styles start */
+
+.explore-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 865px;
+  background: #030303
+}
+
+.explore-text {
+  margin: 0;
+  float: left;
+  max-width: 660px;
+  color: #ffffff;
+}
+
+.explore-heading {
+  margin: 0;
+  margin-bottom: 25px;
+  padding-top: 75px;
+
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 90px;
+}
+
+.explore-line {
+  margin: 0;
+  margin-bottom: 75px;
+  width: 660px;
+  height: 3px;
+  background: #710707;
+}
+
+.explore-text-one,
+.explore-text-two {
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38px;
+}
+
+.explore-text-three {
+  margin: 0;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38px;
+}
+
+.picture-img {
+  padding-left: 60px;
+  padding-top: 90px;
+
+  width: 720px;
+  height: 700px;
+}
+
+/* explore-box styles end */
+
+/* video-box styles start*/
+
+.video-img {
+  margin-top: 90px;
+  width: 100%;
+  height: 629px;
+  background: url(../imades/video-img.jpg);
+}
+
+.vector-video {
+
+  margin: auto;
+  width: 91px;
+  height: 120px;
+  background: url(../imades/circle.svg);
+
+
+}
+
+
+/* video-box styles end*/

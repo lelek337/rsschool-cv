@@ -15,6 +15,12 @@ I haven't programming skills yet. Hopefully I will get an experience at the end 
 
 I studied programming on my own.
 
+## My skills
+
+HTML, CSS, JS, GIT.
+
+## Sample code
+
 ```js
 function getMatrix(number) {
   let i;

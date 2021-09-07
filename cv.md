@@ -16,22 +16,25 @@ I haven't programming skills yet. Hopefully I will get an experience at the end 
 I studied programming on my own.
 
 ```js
-window.addEventListener("DOMContentLoaded", () => {
-  const box = document.querySelector(".box");
-
-  box.addEventListener("touchstart", (e) => {
-    e.preventDefault();
-
-    console.log("start");
-    console.log(e.targetTouches);
-  });
-
-  box.addEventListener("touchmove", (e) => {
-    e.preventDefault();
-
-    console.log(e.targetTouches[0].pageX);
-  });
-});
+function getMatrix(number) {
+  let i;
+  let j;
+  let rez = [];
+  for (i = 0; i < number; i++) {
+    rez[i] = [];
+    for (j = 0; j < number; j++) {
+      if (i == j) {
+        rez[i][j] = 1;
+      } else {
+        rez[i][j] = 0;
+      }
+    }
+  }
+  console.log(rez);
+  return rez[i[j]];
+  // good luck
+}
+getMatrix(5);
 ```
 
 I have a diploma of an engineer for the processing of materials by pressure.

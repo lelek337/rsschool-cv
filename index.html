@@ -5,65 +5,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ivan Hubarau</title>
   </head>
 
   <body>
-    <header>
+    <header class="header">
+
       <div class="wriper">
-        <div class="img">
-          <img src="img/аватара.png" alt="avatara">
+        <div class="header-wriper">
+          <div class="logo">
+            <img src="https://rs.school/images/rs_school_js.svg" alt="logo">
+          </div>
+          <div class="img">
+            <img class="img-avatara" src="img/аватара.png" alt="avatara">
+          </div>
         </div>
+
       </div>
 
     </header>
 
-    <main>
+    <main class="main">
       <div class="wriper">
-        <h1>Ivan Hubarau</h1>
-        <h2>Contact</h2>
-        <p>Phone: +37529-6337-663</p>
-        <p>Email: ioan.af@mail.ru </p>
-        <h2>About me</h2>
-        <div class="text">
-          <p>I'm 47 years old. I decided to change my job. I am currently working as a plastics caster in a cap factory.
-            I
-            hope my professional experience will be useful in IT.</p>
-          <p>I haven't programming skills yet. Hopefully I will get an experience at the end of the course.</p>
-          <p>I studied programming on my own.</p>
-          <h3>My skills</h3>
-          <p>HTML, CSS, JS, GIT.</p>
-          <h3>Sample code</h3>
-          <pre>
-  <code>
-    function getMatrix(number) {
-    let i;
-    let j;
-    let rez = [];
-    for (i = 0; i < number; i++) {
-       rez[i]=[]; for (j=0; j < number; j++) { if (i==j) { rez[i][j]=1; 
-      } else {
-      rez[i][j]=0; 
-      } 
-     }
-    } console.log(rez); return rez[i[j]]; 
-     // good luck 
-    } 
-    getMatrix(5);
-  </code>
-     </pre>
+        <div class="main-contacts">
+          <h1>Ivan Hubarau</h1>
+          <h2>Contacts</h2>
+          <p>Phone: +37529-6337-663</p>
+          <p>Email: ioan.af@mail.ru </p>
+          <h2>About me</h2>
         </div>
-        <div class="video">
-          <video src="img/WIN_20210909_12_19_57_Pro.mp4" controls></video>
+
+        <div class="main-me">
+          <div class="me-video">
+            <a href="img/WIN_20210909_12_19_57_Pro.mp4"></a>
+          </div>
+          <div class="text">
+            <p>I'm 47 years old. I decided to change my job. I am currently working as a plastics caster in a cap
+              factory.
+              I
+              hope my professional experience will be useful in IT.</p>
+            <p>I haven't programming skills yet. Hopefully I will get an experience at the end of the course.</p>
+            <p>I studied programming on my own.</p>
+            <h3>My skills</h3>
+            <p>HTML, CSS, JS, GIT.</p>
+            <h3>Sample code</h3>
+            <pre>
+            <code>
+              function getMatrix(number) {
+              let i;
+              let j;
+              let rez = [];
+              for (i = 0; i < number; i++) {
+                rez[i]=[]; for (j=0; j < number; j++) { if (i==j) { rez[i][j]=1; 
+                } else {
+                rez[i][j]=0; 
+                } 
+              }
+              } console.log(rez); return rez[i[j]]; 
+              // good luck 
+              } 
+              getMatrix(5);
+            </code>
+              </pre>
+            <h3>level of english: A1</h3>
+          </div>
+          <div class="video">
+            <video class="video-me" src="img/WIN_20210909_12_19_57_Pro.mp4" controls></video>
+          </div>
         </div>
       </div>
-
     </main>
-    <footer>
+
+    <footer class="footer">
       <div class="wriper">
-        <a href="https://github.com/lelek337">https://github.com/lelek337</a>
-        <img src="https://rs.school/images/rs_school_js.svg" alt="logo">
-        <a href="https://rs.school/js/">https://rs.school/js/</a>
+        <div class="footer-wriper">
+          <a href="https://github.com/lelek337">https://github.com/lelek337</a>
+          <h3>2021</h3>
+          <a href="https://rs.school/js/"><img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="logo">
+          </a>
+        </div>
+
       </div>
     </footer>
 

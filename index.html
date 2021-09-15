@@ -4,14 +4,14 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/style.css">
     <title>Ivan Hubarau</title>
   </head>
 
   <body>
-    <header class="header">
 
+    <header class="header">
       <div class="wriper">
         <div class="header-wriper">
           <div class="logo">
@@ -21,25 +21,20 @@
             <img class="img-avatara" src="img/аватара.png" alt="avatara">
           </div>
         </div>
-
       </div>
-
     </header>
 
     <main class="main">
       <div class="wriper">
-        <div class="main-contacts">
+        <article class="main-contacts">
           <h1>Ivan Hubarau</h1>
           <h2>Contacts</h2>
           <p>Phone: +37529-6337-663</p>
           <p>Email: ioan.af@mail.ru </p>
           <h2>About me</h2>
-        </div>
+        </article>
 
-        <div class="main-me">
-          <div class="me-video">
-            <a href="img/WIN_20210909_12_19_57_Pro.mp4"></a>
-          </div>
+        <section class="main-me">
           <div class="text">
             <p>I'm 47 years old. I decided to change my job. I am currently working as a plastics caster in a cap
               factory.
@@ -57,7 +52,8 @@
               let j;
               let rez = [];
               for (i = 0; i &lt; number; i++) {
-                rez[i]=[]; for (j=0; j &lt; number; j++) { if (i==j) { rez[i][j]=1;
+                rez[i]=[]; for (j=0; j &lt; number; j++) { 
+                  if (i==j) { rez[i][j]=1;
                 } else {
                 rez[i][j]=0; 
                 } 
@@ -68,24 +64,25 @@
               getMatrix(5);
             </code>
               </pre>
-            <h3>level of english: A1</h3>
+            <h3>Level of English: A1</h3>
           </div>
-          <div class="video">
-            <video class="video-me" src="img/WIN_20210909_12_19_57_Pro.mp4" controls></video>
+          <div class="video-me">
+            <video class="video" src="img/WIN_20210909_12_19_57_Pro.mp4" controls></video>
           </div>
-        </div>
+        </section>
       </div>
     </main>
 
     <footer class="footer">
       <div class="wriper">
         <div class="footer-wriper">
-          <a href="https://github.com/lelek337">https://github.com/lelek337</a>
+          <a href="https://github.com/lelek337">
+            <h3>GitHub HubarauIvan</h3>
+          </a>
           <h3>2021</h3>
           <a href="https://rs.school/js/"><img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="logo">
           </a>
         </div>
-
       </div>
     </footer>
 

@@ -1,0 +1,139 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+    <title>Ivan Hubarau</title>
+  </head>
+
+  <body>
+
+    <header class="header">
+      <div class="wriper">
+        <div class="header-body">
+          <div class="img">
+            <img class="img-avatara" src="img/аватара.png" alt="avatara">
+          </div>
+          <div class="header-burger">
+            <span></span>
+          </div>
+          <nav class="header-menu">
+            <ul class="header-list">
+              <li>
+                <a href="#contacts" class="header-link">Contacts</a>
+              </li>
+              <li>
+                <a href="#video" class="header-link">Video-me</a>
+              </li>
+              <li>
+                <a href="#code" class="header-link">Sample code</a>
+              </li>
+              <li>
+                <a href="#git" class="header-link">GitHub HubarauIvan</a>
+              </li>
+            </ul>
+          </nav>
+
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="wriper">
+        <article class="main-contacts">
+          <h1>Ivan Hubarau</h1>
+          <h2>Contacts</h2>
+          <ul id="contacts">
+            <li>Phone: +37529-6337-663</li>
+            <li>Email: ioan.af@mail.ru </li>
+          </ul>
+
+          <h2>About me</h2>
+        </article>
+
+        <section class="main-me">
+          <div class="text">
+            <p>I'm 47 years old. I decided to change my job. I am currently working as a plastics caster in a cap
+              factory.
+              I
+              hope my professional experience will be useful in IT.</p>
+            <p>I haven't programming skills yet. Hopefully I will get an experience at the end of the course.</p>
+            <p>I studied programming on my own.</p>
+            <h3>My skills</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>GIT</li>
+            </ul>
+            <p>I have a material processing engineer degree</p>
+            <h3>Sample code</h3>
+            <pre>
+            <code id="code">
+              function getMatrix(number) {
+              let i;
+              let j;
+              let rez = [];
+              for (i = 0; i &lt; number; i++) {
+                rez[i]=[]; for (j=0; j &lt; number; j++) { 
+                  if (i==j) { rez[i][j]=1;
+                } else {
+                rez[i][j]=0; 
+                } 
+              }
+              } console.log(rez); return rez[i[j]]; 
+              // good luck 
+              } 
+              getMatrix(5);
+            </code>
+              </pre>
+            <h3>Level of English: A1</h3>
+          </div>
+          <div id="video" class="video-me">
+            <video class="video" src="img/WIN_20210909_12_19_57_Pro.mp4" controls></video>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="wriper">
+        <div class="footer-wriper">
+          <a href="https://github.com/lelek337">
+            <h3 id="git">GitHub HubarauIvan</h3>
+          </a>
+          <h3>2021</h3>
+          <a href="https://rs.school/js/"><img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="logo">
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // $(document).ready(function () {
+      //   $('.header-burger').click(function (e) {
+      //     $('.header-burger, .header-menu').toggleClass('.active')
+      //   })
+      // })
+
+      const headerBurger = document.querySelector('.header-burger'),
+        headerMenu = document.querySelector('.header-menu'),
+        body = document.querySelector('body');
+
+      headerBurger.addEventListener('click', (event) => {
+        console.log('yes');
+        headerMenu.classList.toggle('active');
+        headerBurger.classList.toggle('active');
+        body.classList.toggle('lock');
+      })
+    </script>
+  </body>
+
+  </html>

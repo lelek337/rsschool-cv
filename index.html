@@ -1,12 +1,14 @@
-  <!DOCTYPE html>
-  <html lang="en">
-
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css"
+    />
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
     <script>
       hljs.initHighlightingOnLoad();
@@ -15,12 +17,11 @@
   </head>
 
   <body>
-
     <header class="header">
       <div class="wriper">
         <div class="header-body">
           <div class="img">
-            <img class="img-avatara" src="img/аватара.png" alt="avatara">
+            <img class="img-avatara" src="img/аватара.png" alt="avatara" />
           </div>
           <div class="header-burger">
             <span></span>
@@ -41,7 +42,6 @@
               </li>
             </ul>
           </nav>
-
         </div>
       </div>
     </header>
@@ -53,20 +53,21 @@
           <h2>Contacts</h2>
           <ul id="contacts">
             <li>Phone: +37529-6337-663</li>
-            <li>Email: ioan.af@mail.ru </li>
+            <li>Email: ioan.af@mail.ru</li>
           </ul>
-
           <h2>About me</h2>
         </article>
 
         <section class="main-me">
           <div class="text">
-            <p>I'm 47 years old. I decided to change my job. I am currently working as a plastics caster in a cap
-              factory.
-              I
-              hope my professional experience will be useful in IT.</p>
-            <p>I haven't programming skills yet. Hopefully I will get an experience at the end of the course.</p>
-            <p>I studied programming on my own.</p>
+            <p>
+              In 2017, he graduated from the Gomel Technical University with a
+              degree in the processing of materials by pressure.
+            </p>
+            <p>
+              In 2022, he took courses at RS-school on front-end development.
+            </p>
+            <p>I have no experience in IT.</p>
             <h3>My skills</h3>
             <ul>
               <li>HTML</li>
@@ -98,7 +99,11 @@
             <h3>Level of English: A1</h3>
           </div>
           <div id="video" class="video-me">
-            <video class="video" src="img/WIN_20210909_12_19_57_Pro.mp4" controls></video>
+            <video
+              class="video"
+              src="img/WIN_20210909_12_19_57_Pro.mp4"
+              controls
+            ></video>
           </div>
         </section>
       </div>
@@ -111,29 +116,27 @@
             <h3 id="git">GitHub HubarauIvan</h3>
           </a>
           <h3>2021</h3>
-          <a href="https://rs.school/js/"><img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="logo">
+          <a href="https://rs.school/js/"
+            ><img
+              class="logo"
+              src="https://rs.school/images/rs_school_js.svg"
+              alt="logo"
+            />
           </a>
         </div>
       </div>
     </footer>
     <script>
-      // $(document).ready(function () {
-      //   $('.header-burger').click(function (e) {
-      //     $('.header-burger, .header-menu').toggleClass('.active')
-      //   })
-      // })
+      const headerBurger = document.querySelector(".header-burger"),
+        headerMenu = document.querySelector(".header-menu"),
+        body = document.querySelector("body");
 
-      const headerBurger = document.querySelector('.header-burger'),
-        headerMenu = document.querySelector('.header-menu'),
-        body = document.querySelector('body');
-
-      headerBurger.addEventListener('click', (event) => {
-        console.log('yes');
-        headerMenu.classList.toggle('active');
-        headerBurger.classList.toggle('active');
-        body.classList.toggle('lock');
-      })
+      headerBurger.addEventListener("click", (event) => {
+        console.log("yes");
+        headerMenu.classList.toggle("active");
+        headerBurger.classList.toggle("active");
+        body.classList.toggle("lock");
+      });
     </script>
   </body>
-
-  </html>
+</html>

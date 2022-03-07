@@ -94,7 +94,6 @@ body {
   text-transform: uppercase;
   font-size: 18px;
   text-decoration: none;
-
 }
 
 @media (max-width: 767px) {
@@ -189,9 +188,7 @@ body {
   .header-list li {
     margin: 0 0 20px 0;
   }
-
 }
-
 
 .main {
   background-color: azure;
@@ -233,13 +230,11 @@ p {
 
 .footer {
   background-color: rgb(138, 135, 135);
-
 }
 
 .footer-wriper {
   height: 90px;
   display: flex;
-
   justify-content: space-between;
   align-items: center;
 }
